@@ -9,7 +9,7 @@
 let backg;
 
 function preload(){
-  backg = loadImage("")
+  backg = loadImage("cafe-back")
 }
 
 function setup() {
