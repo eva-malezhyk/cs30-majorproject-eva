@@ -9,7 +9,7 @@
 let backg;
 
 function preload(){
-  backg = loadImage("cafe-back")
+  backg = loadImage("cafe-backg.jpeg");
 }
 
 function setup() {
@@ -17,6 +17,5 @@ function setup() {
 }
 
 function draw() {
-  background(220);
-  circle(mouseX, mouseY, 100)
+  background(backg);
 }
